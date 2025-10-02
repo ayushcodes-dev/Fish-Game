@@ -1,0 +1,89 @@
+body {
+  background: #DDDDDD;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  background: #230039;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  width: 95vw;
+  margin: auto;
+  margin-top: 10px;
+}
+nav {
+  background: #F5E9FF;
+  width: 100vw;
+  height: auto;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  justify-content: center;
+  
+}
+nav > * {
+  border-radius: 5px;
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav input, nav button {
+  border: 2px solid #4B0061;
+  padding: 0px 10px;
+  font-size: 120%;
+}
+nav button{
+  background: #4B0061;
+  color: white;
+  font-size: 150%;
+}
+nav input:focus, nav button:focus{
+  border: 2px solid #4B0061;
+  outline: 2px solid #EBB6FF;
+}
+nav #playBtn{
+  grid-column: 1 / -1;
+  width: 100%;
+}
+
+section{
+  margin-top: 10px;
+  background: #F5E9FF;
+  width: 100vw;
+  padding: 10px 0px
+  overflow-x: auto;
+  overflow-y: auto;
+  max-height: 60vh;
+}
+table {
+  margin: auto;
+  border: 1px solid #8000BC;
+  table-layout: fixed;  
+   width: 100%;
+   border-collapse: collapse;
+   
+}
+
+table th , table td{
+  width: 30vw;   
+  text-align: center;
+  border: 1px solid #4B0061 ;
+  padding: 5px;
+}
+table th{
+  font-size: 120%;
+  background: #F5E9FF;
+  height: 40px;
+  color:#4B0061;
+  position: sticky;
+  top: 0;
+}
