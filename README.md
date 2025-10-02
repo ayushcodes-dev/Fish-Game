@@ -1,6 +1,6 @@
 # 🎮 Fish Game
 
-*"Ek Machhli Pani Me Gayi Chappak..."* 🐟
+*"1 Machhli Pani Me Gayi Chappak..."* 🐟
 
 ## 📌 About
 This tool helps players **cheat in the Fish Game**.
@@ -17,28 +17,28 @@ In this game:
 2. Select duration (kitne rounds).
 3. Players will speak in sequence.
 4. The phrases keep **increasing one by one**:
-   - First → "Ek Machhli"
-   - Then → "Do Machhli"
+   - First → "1 Machhli"
+   - Then → "2 Machhli"
    - And so on...
 
 ---
 
 ## 🔼 What Increases?
 - The **count of fish (Machhli)** increases with each round.
-- Example: "Ek Machhli", "Do Machhli", "Teen Machhli"...
+- Example: "1 Machhli", "2 Machhli", "3 Machhli"...
 
 ---
 
 ## 🧩 Example
 👉 **3 Players** and **Duration = 2**
 
-- Player 1: *Ek Machhli*  
+- Player 1: *1 Machhli*  
 - Player 2: *Pani Mein Gai*  
 - Player 3: *Chappak*  
 
 Next Round (count increases to 2):  
-- Player 1: *Do Machhli*  
-- Player 2: *Machhli*  
+- Player 1: *2 Machhli*  
+- Player 2: *2 Machhli*  
 - Player 3: *Pani Mein Gai*  
 - Player 1: *Pani Mein Gai*  
 - Player 2: *Chappak*  
